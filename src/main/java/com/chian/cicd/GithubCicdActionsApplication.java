@@ -11,7 +11,7 @@ public class GithubCicdActionsApplication {
 
 	@GetMapping("/welcome")
 	public String welcome() {
-		return "Welcome in the future";
+		return "Welcome in the future.";
 	}
 
 	public static void main(String[] args) {
